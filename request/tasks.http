@@ -1,0 +1,30 @@
+GET http://localhost:3000/tasks
+
+
+###
+
+POST  http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "name": " tengo dfgdfgdfgd  ",
+    "description": "dfgdfgdfgertertertdf "
+}
+
+###
+
+GET http://localhost:3000/tasks/zHBhOk8ho2oLfg81lRWty
+
+
+###
+DELETE http://localhost:3000/tasks/zHBhOk8ho2oLfg81lRWty
+
+
+###
+
+PUT  http://localhost:3000/tasks/d05qOMT80ltoJFsRWjOks
+Content-Type: application/json
+    {
+        "name": "nose que pediss",
+        "description": "cacahiante"
+    }
