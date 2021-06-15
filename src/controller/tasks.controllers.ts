@@ -76,3 +76,8 @@ export const   updateTask : Handler = (req,res) => {
         
         
         }
+
+export const count: Handler = (req,res) => {
+    const tasklLengt = getConnection().get('tasks').value().length;
+    res.json(tasklLengt);
+}

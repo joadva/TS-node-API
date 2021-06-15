@@ -1,3 +1,9 @@
+
+
+
+
+
+
 GET http://localhost:3000/tasks
 
 
@@ -8,7 +14,7 @@ Content-Type: application/json
 
 {
     "name": " tengo dfgdfgdfgd  ",
-    "description": "dfgdfgdfgertertertdf "
+    "description": "comeeer "
 }
 
 ###
@@ -17,14 +23,20 @@ GET http://localhost:3000/tasks/zHBhOk8ho2oLfg81lRWty
 
 
 ###
-DELETE http://localhost:3000/tasks/zHBhOk8ho2oLfg81lRWty
+DELETE http://localhost:3000/tasks/deleteTask
 
 
 ###
 
-PUT  http://localhost:3000/tasks/d05qOMT80ltoJFsRWjOks
+PUt  http://localhost:3000/tasks/d05qOMT80ltoJFsRWjOks
 Content-Type: application/json
-    {
-        "name": "nose que pediss",
-        "description": "cacahiante"
-    }
+
+{
+    "name": " tengo dfgdfgdfgd  ",
+    "description": "awa "
+}
+
+
+###
+
+GET http://localhost:3000/tasks/count
